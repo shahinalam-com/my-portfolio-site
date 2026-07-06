@@ -19,17 +19,19 @@ h1 {
     font-family: "Manrope", sans-serif;
     font-weight: 900;
     font-size: 3rem;
-    color: rgb(3, 91, 206);
+    color: #035bce;
 }
 
 .hero-btn {
+    display: inline-block;
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    padding: 10px 20px;
+    background-color: #035bce;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 3px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
-.hero-btn a {
-    text-decoration: none;
-}
