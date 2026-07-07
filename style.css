@@ -56,8 +56,14 @@ body {
     border: none;
     text-decoration: none;
     color: #103c1f;
+    font-weight: 500;
 }
 
 .nav-btn:hover {
     background-color: antiquewhite;
+}
+
+.fa-square-upwork {
+    padding-left: 5px;
+    font-size: 1.3rem;
 }
