@@ -1,38 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
 
 * {
-    margin: 0;
-    padding:0 ;
+    margin: 0 auto;
+    padding:0 auto;
     box-sizing: border-box;
-    max-width: 1200px;
 }
 
 body {
     font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: #103c1f;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
-    width: 100px;
-    border-radius: 100%;
+    width: 50px;
 }
 
-h1 {
-    font-family: "Manrope", sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    color: #035bce;
-}
-
-.hero-btn {
-    display: inline-block;
-    font-family: "Inter", sans-serif;
+.nav-links {
+    display: flex;
     font-size: 20px;
-    background-color: #035bce;
-    color: white;
-    text-decoration: none;
-    padding: 15px 25px;
-    border-radius: 3px;
-    margin-top: 20px;
-    margin-bottom: 45px;
+    font-weight: 300;
+    list-style: none;
+    gap: 1.2rem;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: #8ed968;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+    color: antiquewhite;
+}
+
+.nav-btn {
+    padding: 15px 30px;
+    background-color: #8ed968;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    color: #103c1f;
+}
+
+.nav-btn:hover {
+    background-color: antiquewhite;
+}
